@@ -1,7 +1,8 @@
 ## CASCADE Delete and Referential Integrity
 
-First, let's set up a more meaningful scenario:
+Note: You may want to use a different database/schema if the tables with the name are already present.
 
+Run the following SQL for the initial setup.
 ```sql
 -- Create tables with proper relationships
 CREATE TABLE departments (
