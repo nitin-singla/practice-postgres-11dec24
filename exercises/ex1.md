@@ -102,9 +102,65 @@ UPDATE employees SET dept_id = 4 WHERE department = 'Marketing';
 3. List all active employees ordered by hire date
 4. Find all employees hired between 2019 and 2020
 
-
+- - - 
+  
 ### Logical Expressions
 1. Find all employees who are either in IT department OR earn more than 70000
 2. List employees who are both active AND hired after 2019
 3. Find employees who are NOT in the Marketing department
 4. (Advanced) Create a column showing TRUE if employee salary is above department average, FALSE otherwise
+
+- - - 
+
+### Joins
+> Before doing the below section on Joins, go through [this tutorial](https://neon.tech/postgresql/postgresql-tutorial/postgresql-joins).
+
+1. List all employees with their department details
+2. Show all departments and the number of employees in each
+3. Find all projects and their assigned employees
+4. List employees who haven't been assigned to any project
+5. Show departments that have no projects
+
+- - - 
+  
+### Aggregation
+> Before doing the below section on Aggregation, go through [this tutorial](https://neon.tech/postgresql/postgresql-aggregate-functions).
+
+1. Calculate the average salary by department
+2. Find the department with the highest total salary
+3. Count the number of projects per department
+4. Calculate the total hours allocated per project
+5. Find departments where the average salary is above 70000
+
+- - - 
+  
+### Views
+1. Create a view showing employee details along with their department information
+2. Create a view showing department-wise salary statistics
+3. Create a view for active employees only
+4. (Advanced) Create a view showing project assignments and total hours
+
+- - - 
+  
+### Data Manipulation
+1. Insert a new employee with salary having 3 decimal places
+2. Update all department budgets by adding 10%
+3. Delete all inactive employees
+4. Transfer all employees from IT to Finance department
+5. Update project hours for all developers to 140
+
+- - - 
+  
+### `LIKE` Operator and Pattern Matching
+1. Find all employees whose names start with 'J'
+2. Find all employees whose names contain 'son'
+3. Find departments that end with 'ing'
+4. Find projects that have the word 'System' anywhere in the name
+5. Find employees whose names start with any vowel
+6. Find departments that have exactly 2 characters before 'ing'
+7. Find projects where names contain numbers
+
+- - - 
+  
+### CASCADE Delete and Referential Integrity
+[Go to](https://github.com/nitin-singla/practice-postgres-11dec24/blob/main/exercises/cascade-del-referential-in.md)
