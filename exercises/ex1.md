@@ -23,12 +23,12 @@ INSERT INTO employees (name, department, salary, hire_date, is_active) VALUES
     ('Edward Davis', 'Finance', 85000.20, '2017-12-01', true),
     ('Fiona Clark', 'Marketing', 71000.60, '2020-09-15', true),
     ('George Harris', 'IT', 78000.30, '2018-06-30', true),
-    ('Helen Martinez', 'HR', 69000.70, '2021-02-28', true),,
+    ('Helen Martinez', 'HR', 69000.70, '2021-02-28', true),
     ('James Anderson', 'IT', 71000.50, '2021-03-15', true),
     ('Jessica Wilson', 'Marketing', 69000.75, '2021-04-20', true),
     ('Johnson Miller', 'HR', 62000.25, '2021-05-05', true),
     ('Oliver Smith', 'IT', 73000.80, '2021-06-30', true),
-    ('Emily Jackson', 'Marketing', 67000.90, '2021-07-12', true);;
+    ('Emily Jackson', 'Marketing', 67000.90, '2021-07-12', true);
 
 -- Create and populate departments table with cascade delete
 CREATE TABLE departments (
